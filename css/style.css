@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 80%;
+    background-color: rgba(242, 239, 239, 0.178);
+    margin: auto;
+    box-shadow: 10px 20px 30px black;
+}
 h2{
     text-align: center;
     margin: 10px 0;
@@ -22,7 +28,6 @@ menu{
 
 .box_conteudo{
     width: 100%;
-    border: 1px solid black;
     margin: 10px 0px;
     
 }
