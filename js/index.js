@@ -13,8 +13,6 @@ const debounce = function (func, wait, immediate) {
     };
 };
 
-
-
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'anime';
 
@@ -38,4 +36,3 @@ if (target.length) {
         animeScroll();
     }, 200));
 }
-
