@@ -44,7 +44,6 @@ nav{
 .box_conteudo{
     width: 100%;
     margin: 10px 0px;
-
 }
 .conteudo{
     width: 100%;
@@ -64,7 +63,6 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-
 .box-conteudo-right{
     width: 100%;
     display: flex;
@@ -73,7 +71,6 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-
 .box-img{
     width: 90%;
     height: 60vh;
@@ -103,7 +100,7 @@ nav{
 }
 footer{
     width: 100%;
-    height: 12vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +131,6 @@ footer{
         align-items: center;
         justify-content: space-around;
     }
-
     .box-conteudo-right{
         width: 100%;
         display: flex;
@@ -144,10 +140,9 @@ footer{
         align-items: center;
         justify-content: space-around;
     }
-
     .box-img{
         width: 45%;
-        height: 60vh;
+        height: 40vh;
         border: 3px solid black;
     }
     .box-img img{
@@ -155,8 +150,8 @@ footer{
         height: 100%;
     }
     .texto{
-        width: 45%;
-        height: 60vh;
+        width: 50%;
+        height: 40vh;
         margin: 15px 0;
         border: 3px solid black;
     }
@@ -170,12 +165,9 @@ footer{
         width: 100%;
         height: 70vh;
     }
-    
 }
 
-/**/
-
-
+/*Animações*/
 
 [data-anime]{
     opacity: 0;
