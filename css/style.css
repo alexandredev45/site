@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@1,100&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
 }
 body{
     width: 100%;
-    background-color: rgba(242, 239, 239, 0.178);
+    background-color: rgba(100, 97, 97, 0.178);
     margin: auto;
     box-shadow: 10px 20px 30px black;
 }
@@ -76,7 +81,6 @@ nav{
     height: 50vh;
     border-radius: 25px;
     box-shadow: 5px 10px 15px;
-    border: 3px solid black;
 }
 .box-img img{
     width: 100%;
@@ -88,7 +92,7 @@ nav{
     height: 60vh;
     margin: 15px 0;
     padding: 15px;
-    border: 3px solid black;
+
 }
 .manual{
     width: 100%;
@@ -114,6 +118,9 @@ footer{
     margin: 0px 15px;
     color: #000;
     font-weight: 500;
+}
+#box_{
+    margin: 0px 0px 20px 0px
 }
 
 /*versão web*/
@@ -156,7 +163,6 @@ footer{
     .box-img{
         width: 35%;
         height: 40vh;
-        border: 3px solid black;
     }
     .box-img img{
         width: 100%;
@@ -166,7 +172,6 @@ footer{
         width: 50%;
         height: 40vh;
         margin: 15px 0;
-        border: 3px solid black;
     }
     .manual{
         width: 100%;
@@ -177,6 +182,12 @@ footer{
     .manual div img{
         width: 100%;
         height: 70vh;
+    }
+    p{
+        line-height: 1.5;
+    }
+    .box_{
+        margin: 0px 0px 200px 0px
     }
 }
 
