@@ -55,6 +55,9 @@ h1, h2, h3{
     width: 100%;
     margin: 15px 0;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .box-img{
     width: 90%;
@@ -64,6 +67,34 @@ h1, h2, h3{
     width: 100%;
     height: 100%;
     border-radius: 25px;
+}
+.box-manual img{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 15px;
+}
+.btn{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 3rem;
+    background-color: #ED686A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+footer a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
 }
 /*versão web*/
 
