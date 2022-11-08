@@ -42,31 +42,55 @@ h1, h2, h3{
     margin: 10px 0;
 }
 .box-conteudo-left{
-    border: 3px solid red;
     width: 100%;
-    margin: 15px 0;
+
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .box-conteudo-right{
-    border: 3px solid red;
     width: 100%;
-    margin: 15px 0;
+
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+conteudo-display{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+conteudo-display2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .box-img{
     width: 90%;
-    
+    margin: auto;
 }
 .box-img img{
     width: 100%;
     height: 100%;
     border-radius: 25px;
+    box-shadow: 5px 10px 20px;
+    
+}
+.txt_cont{
+    padding-top: 20px;
+}
+h3{
+    padding-top: 15px;
 }
 .box-manual img{
     width: 100%;
@@ -81,6 +105,9 @@ h1, h2, h3{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btn:hover{
+    background-color: rgba(0, 255, 255, 0.658);
 }
 footer{
     width: 100%;
@@ -100,7 +127,72 @@ footer a{
 
 @media screen and (min-width: 520px) 
 {
+    h2{
+        margin-bottom: 20px;
+        margin-top: -10px;
+        text-decoration: underline;
+    }
+    h3{
+        text-decoration: underline;
+    }
+    body{
+        width: 80%;
+    }
+    .img_c{
+        width: 100%;
+        height: 80vh; 
+    }
+    .conteudo-display{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .conteudo-display2{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .box-img{
+        width: 40%;
+        height: 50%;
+        box-shadow: 5px 10px 20px;
+        border-radius: 25px;
+    }
     
+    .texto{
+        width: 55%;
+    }
+
+    .box-manual img{
+        width: 100%;
+        height: 35rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*Animações*/
 /*
